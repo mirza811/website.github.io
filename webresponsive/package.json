@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css-dev": "tailwindcss -i src/styles.css -o dist/tailwind.css",
-    "css-prod": "NODE_ENV=production tailwindcss -i src/styles.css -o dist/tailwind.css"
+    "css-pro" : "cross-env NODE_ENV=production tailwindcss -i src/styles.css -o dist/style.css"
   },
   "keywords": [],
   "author": "",
@@ -16,3 +15,4 @@
     "tailwindcss": "^2.2.7"
   }
 }
+
